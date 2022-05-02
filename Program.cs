@@ -14,6 +14,7 @@ namespace calculator
             int num2=Convert.ToInt32(Console.ReadLine());
             ObjCalc.addition(num1, num2);
             ObjCalc.subtraction(num1, num2);
+            ObjCalc.multiplication(num1, num2);
         }
     }
 }

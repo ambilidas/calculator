@@ -38,5 +38,11 @@ namespace calculator
 
             Console.WriteLine("subtraction of {0} - {1} = {2}",num1,num2,sub);
         }
+
+        public void multiplication(int num1,int num2)
+        {
+            int mul=num1 * num2;
+            Console.WriteLine("multiplication of {0} * {1} = {2}",num1,num2,mul);
+        }
     }
 }

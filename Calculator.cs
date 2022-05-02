@@ -44,5 +44,20 @@ namespace calculator
             int mul=num1 * num2;
             Console.WriteLine("multiplication of {0} * {1} = {2}",num1,num2,mul);
         }
+
+        public void division(int num1,int num2)
+        {
+            int div = 0;
+            if(num1 >= num2)
+            {
+                 div = num1 / num2;
+            }
+            else
+            {
+                div = 0;
+            }
+            Console.WriteLine("Division of {0} / {1} = {2}",num1,num2,div);
+            
+        }
     }
 }

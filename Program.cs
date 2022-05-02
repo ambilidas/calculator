@@ -15,6 +15,7 @@ namespace calculator
             ObjCalc.addition(num1, num2);
             ObjCalc.subtraction(num1, num2);
             ObjCalc.multiplication(num1, num2);
+            ObjCalc.division(num1, num2);
         }
     }
 }

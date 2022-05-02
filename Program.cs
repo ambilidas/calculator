@@ -13,6 +13,7 @@ namespace calculator
             Console.WriteLine("Enter 2nd number");
             int num2=Convert.ToInt32(Console.ReadLine());
             ObjCalc.addition(num1, num2);
+            ObjCalc.subtraction(num1, num2);
         }
     }
 }
